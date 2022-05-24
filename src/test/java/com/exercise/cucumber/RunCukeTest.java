@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
         tags = "@test",
         features = "src/test/resources/features",
         glue = {"com.exercise.cucumber",
+                "com.exercise.steps",
                 "com.exercise.stepdefinitions"
         })
 public class RunCukeTest {
