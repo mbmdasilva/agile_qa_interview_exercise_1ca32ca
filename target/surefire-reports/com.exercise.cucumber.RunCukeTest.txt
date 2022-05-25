@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.exercise.cucumber.RunCukeTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.709 sec <<< FAILURE!
+Entering strings above the allocated limit of 4 throws and error(Return the number of  vowels in a string)  Time elapsed: 0.025 sec  <<< ERROR!
+java.lang.RuntimeException: Exceed the number of arguments allowed. You provided 5 words.
+	at com.exercise.VowelConsonantCount.getConsonantsCountForStringList(VowelConsonantCount.java:24)
+	at com.exercise.stepdefinitions.StepDef.iCanSeeAnExceptionErrorThrown(StepDef.java:47)
+	at ✽.I can see an "Exceed the number of arguments allowed. You provided 5 words." exception error thrown.(file:///Users/mateusdasilva/Downloads/agile_qa_interview_exercise_1ca32ca/src/test/resources/features/vowelsConsonant.feature:33)
+
+Entering an empty strings returns an empty array(Return the number of  vowels in a string)  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.exercise.VowelConsonantCount.getConsonantCount(VowelConsonantCount.java:40)
+	at com.exercise.VowelConsonantCount.lambda$getConsonantsCountForStringList$1(VowelConsonantCount.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1085)
+	at com.exercise.VowelConsonantCount.getConsonantsCountForStringList(VowelConsonantCount.java:27)
+	at com.exercise.stepdefinitions.StepDef.iCanSeeAnExceptionErrorThrown(StepDef.java:47)
+	at ✽.I can see an "java.lang.NullPointerException." exception error thrown.(file:///Users/mateusdasilva/Downloads/agile_qa_interview_exercise_1ca32ca/src/test/resources/features/vowelsConsonant.feature:40)
+

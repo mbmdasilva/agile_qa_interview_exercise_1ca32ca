@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="com.exercise.cucumber.RunCukeTest" time="0.223" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.15+8-LTS-149"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.15.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/mateusdasilva/Downloads/agile_qa_interview_exercise_1ca32ca"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/mateusdasilva/Downloads/agile_qa_interview_exercise_1ca32ca"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.15+8-LTS-149"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/3t/6rrqtx1900qgp_9ztyj1g43w0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.5/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mateusdasilva/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.5/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.3.1"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.5/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/mateusdasilva"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="mateusdasilva"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.5/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.15.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.5/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Return the number of  vowels in a string" name="Entering 4 string will returns a vowel count of each" time="0.168"/>
+  <testcase classname="Return the number of  vowels in a string" name="Entering 4 string will returns a consonant count of each" time="0.021"/>
+  <testcase classname="Return the number of  vowels in a string" name="Entering strings above the allocated limit of 4 throws and error" time="0.025">
+    <error message="Exceed the number of arguments allowed. You provided 5 words." type="java.lang.RuntimeException">java.lang.RuntimeException: Exceed the number of arguments allowed. You provided 5 words.
+	at com.exercise.VowelConsonantCount.getConsonantsCountForStringList(VowelConsonantCount.java:24)
+	at com.exercise.stepdefinitions.StepDef.iCanSeeAnExceptionErrorThrown(StepDef.java:47)
+	at ✽.I can see an &quot;Exceed the number of arguments allowed. You provided 5 words.&quot; exception error thrown.(file:///Users/mateusdasilva/Downloads/agile_qa_interview_exercise_1ca32ca/src/test/resources/features/vowelsConsonant.feature:33)
+</error>
+  </testcase>
+  <testcase classname="Return the number of  vowels in a string" name="Entering an empty strings returns an empty array" time="0.009">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.exercise.VowelConsonantCount.getConsonantCount(VowelConsonantCount.java:40)
+	at com.exercise.VowelConsonantCount.lambda$getConsonantsCountForStringList$1(VowelConsonantCount.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1085)
+	at com.exercise.VowelConsonantCount.getConsonantsCountForStringList(VowelConsonantCount.java:27)
+	at com.exercise.stepdefinitions.StepDef.iCanSeeAnExceptionErrorThrown(StepDef.java:47)
+	at ✽.I can see an &quot;java.lang.NullPointerException.&quot; exception error thrown.(file:///Users/mateusdasilva/Downloads/agile_qa_interview_exercise_1ca32ca/src/test/resources/features/vowelsConsonant.feature:40)
+</error>
+  </testcase>
+</testsuite>

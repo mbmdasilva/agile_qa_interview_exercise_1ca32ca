@@ -60,3 +60,8 @@ Bonus points if you can add failing test cases for the bugs you find.
 ## Time limits
 
 There are no hard time limits. We suggest not to spend more than ~2 hours.
+
+## Running the Task
+- Use the RuncukeTest class or 
+- mvn verify
+- Click in the report link to see the report.
