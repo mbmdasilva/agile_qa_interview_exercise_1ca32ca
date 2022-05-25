@@ -44,7 +44,8 @@ I want to see the number of vowels in each of the strings that I have entered.
 - This would allow us to have something similar to a payload {mateus:{[vowel=3,consonant=4]}}
 4. Use BDD/ Cucumber to add test cases to test the program for both vowels and consonants.
 5. Report any bugs you find. Include as much information as necessary and add the feedback as a file to the repo along with the Cucumber Test Report.
-- https://reports.cucumber.io/reports/a385b8e9-4132-4834-b5b9-3d879d66b7ee
+- To access the reports use this link :
+- https://reports.cucumber.io/reports/097d6cf7-5347-4fcf-9fbc-20d7054001ce
 
 Bonus points if you can add failing test cases for the bugs you find. 
 
